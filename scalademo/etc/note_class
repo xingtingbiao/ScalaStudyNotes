@@ -1,0 +1,18 @@
+Java/Scala 面向对象
+    封装: 属性、方法封装到类中
+        Person:
+            int id, string name, Date birthday... getter/setter
+            eat、 sleep...
+    继承：父类和子类之间的关系
+        User extends Person
+            exam...
+    多态: ***** 父类引用子类对象  精髓所在   开发框架的基石
+        Person person = new Person();
+        User user = new User();
+        Person person = new User();
+
+
+Trait
+    子类模式：xxx extends ATrait with BTrait with...
+    
+    

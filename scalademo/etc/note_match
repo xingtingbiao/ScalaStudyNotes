@@ -1,0 +1,19 @@
+模式匹配:
+    Java: switch .. case.. 对一个值进行条件判断, 返回针对不同的条件进行不同的处理
+
+语法:
+    变量 match {
+        case value1 => 代码1
+        case value2 => 代码2
+        case value3 => 代码3
+        .....
+        case _ => 代码N  //类似Java 的default
+    }
+
+支持:
+    1. 基本数据类的匹配
+    2. Array 模式匹配
+    3. List 模式匹配
+    4. Scala异常处理  搭配使用
+    5. case class 模式匹配
+    6. Some&None 模式匹配
