@@ -1,4 +1,4 @@
-package com.xingtb.course01
+package com.xingtb.course01_basic
 
 object FunctionApp {
 

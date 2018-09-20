@@ -1,4 +1,4 @@
-package com.xingtb.course02
+package com.xingtb.course02_class
 
 // case class 通常用在模式匹配上
 object CaseClassApp {

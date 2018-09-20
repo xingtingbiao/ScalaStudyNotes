@@ -1,4 +1,4 @@
-package com.xingtb.course02
+package com.xingtb.course02_class
 
 object SimpleObjectApp {
 
@@ -17,7 +17,7 @@ object SimpleObjectApp {
     val age: Int = 20
 
     // []里面应该是指该私有属性属性的作用域范围
-    private [course02] val gender: String = "male"
+    private [course02_class] val gender: String = "male"
 
     def printInfo(): Unit = {
       println("gender: " + gender)

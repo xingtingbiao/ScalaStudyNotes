@@ -1,4 +1,4 @@
-package com.xingtb.course02
+package com.xingtb.course02_class
 
 object ApplyApp {
 
