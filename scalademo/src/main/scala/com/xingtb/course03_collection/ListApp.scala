@@ -13,6 +13,10 @@ object ListApp {
     println(head)
     println(tail)
 
+    println(l.max)
+    println(l.min)
+    println(l.sum)
+
     // Nil在Scala中就是一个空List, 1相当于List的head, Nil相当于tail
     val list = 1 :: Nil
     println(list)

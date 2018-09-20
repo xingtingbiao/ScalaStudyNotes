@@ -1,0 +1,19 @@
+Scala 函数高级操作: ***** 重点
+
+    1. 字符串高级操作:
+        多行:
+        Interpolation(插值):
+
+
+    2. 匿名函数:
+
+    3. curry函数---柯里化函数
+
+    4. 高阶函数 ************* 必须全部掌握
+        map
+        filter
+        flatmap
+        foreach
+        reduce
+
+    5. 偏函数
