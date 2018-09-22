@@ -1,0 +1,17 @@
+<symbols>
+  <symbol ticker="AAPL">
+    <units>200</units>
+  </symbol>
+
+  <units>300</units>
+
+  <symbol ticker="IBM">
+    <units>400</units>
+  </symbol>
+  <header>
+    <field name="beijing" required="Y">FIX4.2</field>
+    <field name="MsgType" required="Y">Test</field>
+  </header>
+  <field name="XTB" required="Y">hello</field>
+
+</symbols>
