@@ -1,4 +1,4 @@
 server:
   port: 7777
-  servlet:
-    context-path: /scala-boot
+#  servlet:
+#    context-path: /scala-boot
