@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e396cc50-cedd-4540-bad3-4d06e8254392" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../boot-scala/src/main/scala/com/xingtb/bootscala/controller/ScalaHello.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../boot-scala/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-scala/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../boot-scala/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-scala/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../boot-scala/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-scala/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e396cc50-cedd-4540-bad3-4d06e8254392" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -295,7 +289,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
