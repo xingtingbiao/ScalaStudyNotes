@@ -41,6 +41,7 @@ object XMLApp {
     println(fs)
 
     // field/name  value
-    (xml \\ "field").map(x => ((x \ "@name").text, x.text, x \ "@required")).foreach(println)
+    (xml \\ "field").map(x => ((x \ "@name").text
+      , x.text, x \ "@required")).foreach(println)
   }
 }
