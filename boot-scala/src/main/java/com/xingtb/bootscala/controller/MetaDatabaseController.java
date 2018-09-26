@@ -31,7 +31,7 @@ public class MetaDatabaseController {
     }
 
     @RequestMapping(value = "/query/{id}", method = RequestMethod.GET)
-    public ResultEntity query(@PathVariable(value = "id") Integer id) {
+    public ResultEntity queryById(@PathVariable(value = "id") Integer id) {
         Optional<MetaDatabase> optional = metaDatabaseService.queryById(id);
         return ResultEntityUtil.success(optional.orElse(new MetaDatabase()));
     }
