@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Optional;
+
 @Service
 public class MetaDatabaseService implements com.xingtb.bootscala.service.MetaDatabaseService {
     @Autowired private MetaDatabaseRepository metaDataBaseRepository;
@@ -20,5 +22,10 @@ public class MetaDatabaseService implements com.xingtb.bootscala.service.MetaDat
     @Override
     public Iterable<MetaDatabase> query() {
         return metaDataBaseRepository.findAll();
+    }
+
+    @Override
+    public Optional<MetaDatabase> queryById(Integer id) {
+        return metaDataBaseRepository.findById(id);
     }
 }
