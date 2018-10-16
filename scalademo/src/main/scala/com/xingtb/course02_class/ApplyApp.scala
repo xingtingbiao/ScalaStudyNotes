@@ -21,7 +21,7 @@ object ApplyApp {
   */
 // 伴生类
 class ApplyTest {
-  def apply() = {
+  def apply(): Unit = {
     println("class ApplyTest apply...")
   }
 }
